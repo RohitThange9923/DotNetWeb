@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Feedback</title>
+</head>
+<body>
+    <body>
+        <h1>Feedback</h1>
+        <form action="feedback.php" method="post">
+            <label>Name</label><br>
+            <input type="text" name="name" placeholder="Enter your name"><br><br>
+            <label>Email</label><br>
+            <input type="email" name="email" placeholder="Enter your email address"><br><br>
+            <label>Rating</label><br>
+            <input type="radio" name="rating" value="1"> 1
+            <input type="radio" name="rating" value="2"> 2
+            <input type="radio" name="rating" value="3"> 3
+            <input type="radio" name="rating" value="4"> 4
+            <input type="radio" name="rating" value="5"> 5<br><br>
+            <label>Comment</label><br>
+            <textarea name="comment" cols="30" rows="10" placeholder="Enter your comment"></textarea><br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+</body>
+</html>
